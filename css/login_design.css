@@ -1,0 +1,58 @@
+.site{
+background-color:#eab676;
+margin:0px auto;
+}
+.headers{
+font-size:40px;
+text-align:center;
+}
+
+.login{
+width:560px;
+height:250px;
+border:2px solid red;
+margin:0 auto;
+text-align:center;
+background-color:#8ea1bf;
+}
+.username{
+padding:5% 0 0;
+}
+.password{
+padding:5% 0 0;
+}
+.button{
+padding:5% 0 0;
+}
+input[type=text]:focus{
+background-color:yellow;
+font-weight:bold;
+}
+input[type=password]:focus{
+background-color:yellow;
+font-weight:bold;
+}
+input[type=submit]:focus{
+background-color:yellow;
+font-weight:bold;
+}
+input[type=text]{
+font-size:20px;
+text-align:center
+}
+
+input[type=password]{
+font-size:20px;
+text-align:center;
+}
+
+input[type=submit]{
+font-size:20px;
+text-align:center;
+}
+
+.error p{
+text-align:center;
+font-size:18px;
+color:red;
+}
