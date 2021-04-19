@@ -9,6 +9,7 @@ $_SESSION['active_user']=null;
 <link type="text/css "rel="stylesheet" href="css/login_design.css"/>
 </head>
 <body class='site'>
+<div class='head'>JIL Hagonoy Praise and Worship Songs </div>
 <!--Login Form-->
 <form method='POST' action='login_process.php'>
 	<div class = 'login' >
@@ -20,8 +21,9 @@ $_SESSION['active_user']=null;
  		<input type='password' name='password'placeholder='Password'>
  		</div>
  		<div class ='button'>
-   		<input type='submit' name='submit' value='Login'>
+   		<input type='submit' name='submit' value='Sign In'>
    		</div>
+   		<div id='register'><a href='register.php'>Sign Up</a></div>
 	</div>
 </form>
 <?php

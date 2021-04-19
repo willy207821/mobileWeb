@@ -2,13 +2,15 @@
 background-color:#eab676;
 margin:0px auto;
 }
-.headers{
-font-size:50px;
+.head{
+padding:30px 0 30px;
+font-size:40px;
 text-align:center;
+color:#244975;
 }
 
 p{
-font-size:50px;
+font-size:40px;
 }
 
 .login{
@@ -20,13 +22,13 @@ text-align:center;
 background-color:#8ea1bf;
 }
 .username{
-padding:5% 0 0;
+padding:10% 0 0;
 }
 .password{
-padding:5% 0 0;
+padding:10% 0 0;
 }
 .button{
-padding:5% 0 0;
+padding:10% 0 0;
 }
 input[type=text]:focus{
 background-color:yellow;
@@ -53,6 +55,17 @@ text-align:center;
 input[type=submit]{
 font-size:50px;
 text-align:center;
+background-color:blue;
+color:yellow;
+}
+
+#register {
+text-decoration:none;
+padding:20% 0 0;
+font-size: 50px;
+}
+a{
+text-decoration:none;
 }
 
 .error p{
